@@ -10,11 +10,11 @@ class CarControllerParams:
     if CP.carFingerprint in [CAR.SONATA, CAR.PALISADE, CAR.SANTA_FE, CAR.VELOSTER, CAR.GENESIS_G70,
                              CAR.IONIQ_EV_2020, CAR.KIA_CEED, CAR.KIA_SELTOS, CAR.ELANTRA_2021,
                              CAR.ELANTRA_HEV_2021, CAR.SONATA_HYBRID, CAR.KONA_HEV, CAR.SANTA_FE_2022, CAR.KIA_K5_2021]:
-      self.STEER_MAX = 384
+      self.STEER_MAX = 408
     else:
-      self.STEER_MAX = 255
+      self.STEER_MAX = 408
     self.STEER_DELTA_UP = 3
-    self.STEER_DELTA_DOWN = 7
+    self.STEER_DELTA_DOWN = 5
     self.STEER_DRIVER_ALLOWANCE = 50
     self.STEER_DRIVER_MULTIPLIER = 2
     self.STEER_DRIVER_FACTOR = 1
